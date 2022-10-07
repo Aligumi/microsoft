@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="ICON" href="images/icon.png" type="image/x-icon">
     <link 
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
@@ -17,19 +18,21 @@
     <div class="container">
         <!--Nav Bar-->
         <nav class="main-nav">
-            <img src="https://i.ibb.co/wwLhz98/logo.png"
+            <img src="images/logo.png"
                 alt="Microsoft Logo" class="logo">
             <ul class="main-menu">
-                <li><a href="#">Microsoft 365</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Windows</a></li>
-                <li><a href="https://www.xbox.com/">Xbox</a></li>
-                <li><a href="#">Support</a></li>
+                <li><a href="https://www.microsoft.com/microsoft-365">Microsoft365</a></li>
+                <li><a href="https://www.microsoft.com/microsoft-teams/group-chat-software"">Teams</a></li>
+                <li><a href="https://www.microsoft.com/microsoft-365/microsoft-office">Office</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="https://www.microsoft.com/en-us/windows/">Windows</a></li>
+                <li><a href="#">Small Bussines</a></li>
+                <li><a href="https://www.xbox.com/">Xbox</a></li>                <li><a href="https://support.microsoft.com/">Support</a></li>
             </ul>
             <ul class="right-menu">
-                <li>
+                <li class="ms-dropdown">
                     <a href="#">
-                        <i class="ms-dropdown">All Microsoft<select></select></i>
+                    All Microsoft<select></select>
                     </a>
                 </li>
                 <li>
@@ -45,22 +48,87 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="add user">.</i>
+                        <i class="fas fa-user"></i>
                     </a>
                 </li>
             </ul>        
         </nav>
+        <!--Nav Bar-->
+        <div class="promo">
+            <a href="#">
+                <p>
+                    Free 2-3 Day Shipping +
+                    Extended Returns + 
+                    Flexible Payment Options +
+                    Low Price Promise
+                </p>
+            </a>
+         </div>
         <header class="showcase">
-            <h2>Designed for life today—and tomorrow</h2>
+            <h2>Designed for life today—and<br> tomorrow</h2>
             <p>
-                The next-generation of games. Your goals. Friends and
-                 family. Windows 11 was made to bring you closer to 
-                 everything you love.
+                 The next-generation of games. Your goals. Friends and <br>
+                 family. Windows 11 was made to bring you closer to <br>
+                 everything you love.<br>
             </p>
-                <a href="#" class="btn" >
+                <a href="https://www.microsoft.com/en-gb/windows/windows-11?icid=mscom_marcom_H1a_Win11PChlth#pchealthcheck"
+                   class="btn" >
                     See if your PC is ready    
-                </a>
+                </a>                
         </header>
+        <!-- Home Cards -->
+        <section class="home-cards">
+            <div>
+                <img src="images/card1.webp"
+                     alt="App icons for Office apps 
+                     that are part of Microsoft 365">
+                <h3>Microsoft 365</h3>
+                <p>
+                    Premium Office apps, extra cloud storage, advanced security,
+                     and more—all in one convenient subscription.                
+                </p>
+                <a href="#">For 1 person
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="images/card2.webp"
+                     alt="A landscape with the Microsoft Edge
+                      logo hovering over water.">
+                <h3>Microsoft Edge</h3>
+                <p>
+                    World-class performance with more privacy, more productivity,
+                     and more value while you browse.    
+                </p>
+                <a href="#">Download now
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="images/card3.webp"
+                     alt="A woman using a Windows 10 laptop with OneDrive">
+                <h3>Microsoft OneDrive</h3>
+                <p>
+                    Save your files and photos to OneDrive
+                     and access them from any device, anywhere.
+                </p>
+                <a href="#">Learn more
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            <div>
+                <img src="images/card4.webp"
+                     alt="OneNote on a tablet screen">
+                <h3>OneNote8</h3>
+                <p>
+                    Organize your notes and your life.
+                </p>
+                <a href="#">Sign up for free
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+
+        </section>
     </div>
 
     <script src="script.js" ></script>
